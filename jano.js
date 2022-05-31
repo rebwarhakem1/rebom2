@@ -104,7 +104,7 @@ const jano100 = new Discord.Client();
 
 ///////////////////
 jano.on("ready", () => {
-  var join = jano.channels.get(""); /// id voice
+  var join = jano.channels.get("981061298773192784"); /// id voice
   if (join) join.join();
 });
 ///////////////////
